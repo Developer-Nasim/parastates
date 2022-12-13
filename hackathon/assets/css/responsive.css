@@ -1,0 +1,628 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+    img.vic_left {
+        left: 0;
+    }
+    
+    img.vic_right {
+        right: 0;
+    }
+    
+    section.tools_area .vic_right {left: 0;}
+    
+    section.tools_area .vic_left {
+        right: 0;
+    }
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    img.vic_left {
+        left: 5%;
+        width: 230px;
+    }
+    
+    img.vic_right {
+        right: 5%;
+        width: 230px;
+    }
+
+h1 {
+    font-size: 55px;
+}
+
+.team_membar_top.team_flex h1 {
+    width: 38%;
+}
+
+.earn_title span {
+    font-size: 23px;
+}
+
+.earn_title {
+    margin: 50px auto 90px;
+}
+    
+    section.tools_area .vic_right {left: 0;}
+    
+    section.tools_area .vic_left {
+        right: 0;
+    }
+    .earn_blk h2 {
+        font-size: 22px;
+    }
+    
+    .earn_blk small {
+        font-size: 13px;
+    }
+    
+    .earn_blk {
+        width: 230px;
+    }
+    
+    section.earn_area {
+        margin-bottom: 0;
+    }
+    .tools_cont {
+        width: 90%;
+        margin: auto;
+        padding: 40px;
+    }
+    
+    .tools_right {
+        max-width: 490px;
+    }
+    
+    .tools_right h6 a {
+    }
+    
+    .brand_logo.dora {
+        transform: translateX(-10px);
+    }
+    
+    .brand_logo {
+        background-size: 315px;
+        width: 315px;
+    }
+    
+    img.br_right {
+        /* bottom: 0; */
+        width: 333px;
+    }
+    
+    .Channel_blk {
+        width: 300px;
+    }
+    
+    footer .logo-area {
+        margin-left: 20px;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .earn_cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }    img.vic_left {
+        left: 0;
+        width: 200px;
+    }
+    
+    img.vic_right {
+        right: 0;
+        width: 200px;
+    }
+
+h1 {
+    font-size: 50px !important;
+}
+
+.hero_left p {
+    max-width: 350px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.team_membar_top.team_flex h1 {
+    width: 240px;
+    font-size: 38px !important;
+    display: flex;
+}
+
+.earn_title span {
+    font-size: 23px;
+}
+
+.earn_title {
+    margin: 50px auto 90px;
+}
+    
+    section.tools_area .vic_right {left: 6%;top: 5%;}
+    
+    section.tools_area .vic_left {
+        right: 0;
+        bottom: 10%;
+    }
+    .earn_blk h2 {
+        /* font-size: 22px; */
+    }
+    
+    .earn_blk small {
+        /* font-size: 13px; */
+    }
+    
+    .earn_blk {
+    margin-top: 0 !important;
+    margin-bottom: 40px;
+    width: 290px;
+    background-size: 290px;
+    background-position: revert;
+    }
+
+.earn_blk:after {
+    display: none;
+}
+    
+    section.earn_area {
+        margin-bottom: 0;
+    }
+    .tools_cont {
+        width: 600px;
+        margin: auto;
+        padding: 50px;
+    }
+    
+    .tools_right {
+        max-width: 490px;
+    }
+    
+    .tools_right h6 a {
+    }
+    
+    .brand_logo.dora {
+        width: 360px;
+        background-size: 360px;
+    }
+
+.brand_logo.dora img {
+    width: 280px;
+}
+    
+    .brand_logo {
+        background-size: 315px;
+        width: 315px;
+    }
+    
+    img.br_right {
+        /* bottom: 0; */
+        width: 333px;
+    }
+    
+    .Channel_blk {
+        width: 235px;
+    }
+    
+    footer .logo-area {
+        margin-left: 20px;
+    }
+    section.hero_area {
+        height: max-content;
+        padding: 100px 0;
+    }
+    .price_left p {
+        max-width: 300px;
+        font-size: 24px;
+    }
+    
+    .price_left {
+        margin: unset;
+    }
+    
+    .price_right h2 {
+        font-size: 35px;
+        margin-bottom: 31px;
+    }
+    
+    .price_right h2 p {
+        font-size: 22px;
+        width: 98%;
+    }
+    
+    .membar_card {
+        width: 240px;
+        margin-bottom: 20px;
+    }
+    
+    .tools_cont h2 {
+        font-size: 32px;
+    }
+    
+    .tools_cont_wrp {
+        flex-wrap: wrap;
+    }
+    
+    .tools_left p {
+        max-width: 400px;
+        font-size: 21px;
+    }
+    
+    .tools_left {
+        margin-bottom: 30px;
+    }
+    .Channel_blk img {
+        margin: 0px auto;
+    }
+    
+    .Channel_blk a {
+        font-size: 14px;
+    }
+    
+    .brand_wrp {
+        justify-content: space-around;
+    }
+    .price_right {
+        width: unset;
+    }
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .earn_cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 30px;
+    }    img.vic_left {
+        display: none;
+    }
+    
+    img.vic_right {
+    display: none;
+    }
+
+h1 {
+    font-size: 30px !important;
+    text-align: center;
+}
+
+section.brand_area h1 {
+    margin-bottom: 30px;
+}
+
+.hero_left p {
+    max-width: 240px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.team_membar_top.team_flex h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.earn_title span {
+    font-size: 18px;
+}
+
+.earn_title {
+    margin: 50px auto 20px;
+}
+    
+    section.tools_area .vic_right {left: 6%;top: 5%;}
+    
+    section.tools_area .vic_left {
+        right: 0;
+        bottom: 10%;
+    }
+    .earn_blk h2 {
+        font-size: 30px;
+    }
+    
+    .earn_blk small {
+        /* font-size: 13px; */
+    }
+    
+    .earn_blk {
+    margin-top: 0 !important;
+    margin-bottom: 40px;
+    width: 260px;
+    background-size: 260px;
+    background-position: revert;
+    }
+
+.earn_blk:after {
+    display: none;
+}
+    
+    section.earn_area {
+        margin: 0;
+    }
+    .tools_cont {
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+    }
+    
+    .tools_right {
+        max-width: 100%;
+    }
+    
+    .tools_right h6 a {
+    /* display: block; */
+    width: 100%;
+    /* display: none; */
+    font-size: 16px;
+    }
+    
+    .brand_logo.dora {
+        width: 290px;
+        background-size: 290px;
+        margin: auto;
+    }
+
+.brand_logo.dora img {
+    width: 260px;
+}
+    
+    .brand_logo {
+        background-size: 240px;
+        width: 240px;
+        height: 121px;
+        margin-bottom: 10px;
+    }
+
+.brand_logo:nth-child(2) img {width: max-content;}
+.brand_logo:nth-child(13) img {width: max-content;}
+
+.brand_logo img {
+    width: 140px;
+}
+    
+    img.br_right {
+        /* bottom: 0; */
+        width: 333px;
+    }
+    
+    .Channel_blk {
+        width: 235px;
+        margin-bottom: 15px;
+    }
+    
+    footer .logo-area {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    section.hero_area {
+        height: max-content;
+        padding: 100px 0 50px;
+    }
+
+section.hero_area .row {
+    flex-direction: column-reverse;
+}
+    .price_left p {
+        max-width: 300px;
+        font-size: 18px;
+        font-family: 'HelveticaNowText-Regular';
+    }
+    
+    .price_left {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    
+    .price_right h2 {
+        font-size: 30px;
+        margin-bottom: 26px;
+    }
+
+.price_right li {
+    text-align: center;
+}
+    
+    .price_right h2 p {
+        font-size: 17px;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 5px;
+        font-family: 'HelveticaNowText-Regular';
+    }
+    
+    .membar_card {
+        width: 240px;
+        margin-bottom: 20px;
+        height: max-content;
+    }
+    
+    .tools_cont h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    
+    .tools_cont_wrp {
+        flex-wrap: wrap;
+    }
+    
+    .tools_left p {
+        max-width: 388px;
+        font-size: 16px;
+        font-family: 'HelveticaNowText-Regular';
+    }
+    
+    .tools_left {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+.tools_left a {
+    margin: auto;
+}
+    .Channel_blk img {
+        margin: 15px auto;
+        width: 60px;
+    }
+    
+    .Channel_blk a {
+        font-size: 13px;
+    }
+    
+    .brand_wrp {
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .price_right {
+        width: unset;
+    }
+    .team_flex {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .tools_right h6 {
+        width: 100%;
+        font-size: 15px;
+    }
+    
+    .Channel_wrp {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .footer_link li {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+    .hero_left {text-align: center;width: max-content;margin: 35px auto 0;}
+
+.hero_left a {
+    margin: auto;
+}
+
+img.cir_text {
+    width: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -49px;
+}
+
+.hero_right .star {
+    width: 80px;
+}
+
+.hero_right p {
+    font-size: 16px;
+}
+
+section.hero_area .container {
+    justify-content: center;
+}
+
+.hero_right {
+    margin: auto;
+}
+
+a.btns {
+    font-size: 15px;
+    padding: 11px 26px;
+}
+
+.login a {
+    font-size: 15px;
+}
+
+.trophy {
+    margin: auto;
+}
+
+.trophy .star {
+    width: 150px;
+}
+
+img.cup {
+    width: 70px;
+}
+
+img.line {
+    margin: 50px 0;
+}
+
+.membar_card i img {
+    width: 110px;
+    height: 110px;
+}
+
+.membar_card i:after {
+    background-size: 90px;
+    background-repeat: no-repeat;
+    width: 90px;
+    left: 10px;
+    top: 10px;
+}
+
+.membar_card h5 {
+    font-size: 20px;
+}
+
+.membar_card p {
+    font-size: 16px;
+}
+
+.tools_right span {
+    font-size: 18px;
+}
+
+.tools_right h6 p {
+    font-size: 16px;
+}
+
+section.tools_area {
+    padding: 40px 0 70px;
+}
+.brand_area{
+    padding: 50px 0;
+}
+ 
+.footer_link a {
+    font-size: 16px;
+}
+
+.footer_link ul li {
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+img.ft {
+    display: none;
+}
+
+footer {
+    padding-bottom: 30px;
+}
+section.team_area {
+    margin-top: 0;
+}
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

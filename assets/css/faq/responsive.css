@@ -1,0 +1,280 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero-wrp {
+        padding: 0 0px;
+    }
+    h1 {
+        font-size: 48px;
+        line-height: 60.2px;
+    }
+    .hero-wrp h1 {
+        font-size: 60px;
+        line-height: 75px;  
+    }
+    .parastate-iteam h4 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .parastate-iteam p { 
+        font-size: 14px;
+    }
+    .parastate-area img.top-shaps {  
+        max-width: 550px;
+    }
+    .footer-widget ul.social li a {
+        width: 40px;
+        height: 40px; 
+        font-size: 16px; 
+    }
+    button.accordion-button { 
+        font-size: 17px; 
+    }
+    .accordion-body p { 
+        font-size: 15px;
+    }
+
+
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-wrp h1 {
+        font-size: 56px;
+        line-height: 64px; 
+    }
+    .parastate-bottom-wrp img {
+        max-width: 200px;
+        margin-top: 20px;
+    }
+    .parastate-area img.top-shaps { 
+        width: 500px;
+    }
+    h1 {
+        font-size: 44px;
+        line-height: 60.2px;
+    }
+    .parastate-bottom-wrp a {
+        font-size: 20px;
+        line-height: 28px; 
+    }
+    .parastate-area img.bottom-shaps { 
+        max-width: 300px;
+    }
+    .trying-wrp.leftwrps li h1 {
+        width: 50px;
+        font-size: 55px;
+        line-height: 50px; 
+    }
+    .trying-wrp.leftwrps li { 
+        font-size: 22px; 
+    }
+    .ethereum-wrp li a { 
+        width: 70.05px;
+        height: 70.05px;
+    }
+    .footer-widget ul.social li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    ul.social {
+        margin-top: 20px;
+    }
+    .footer-area { 
+        padding-top: 50px; 
+    }
+
+    button.accordion-button p { 
+        width: 90%;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .hero-wrp h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .parastate-bottom-wrp img {
+        max-width: 160px !important;
+        margin-top: 20px;
+    }
+    .parastate-area img.top-shaps { 
+        max-width: 250px !important;
+    }
+    .parastate-area img.bottom-shaps { 
+        max-width: 250px !important;
+    }
+    h1 {
+        font-size: 32px;
+        line-height: 40.2px;
+    }
+    .parastate-bottom-wrp a {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .trying-wrp.leftwrps li h1 {
+        width: 50px;
+        font-size: 55px;
+        line-height: 50px; 
+    }
+    .trying-wrp.leftwrps li { 
+        font-size: 22px; 
+    }
+    .ethereum-wrp li a { 
+        width: 70.05px;
+        height: 70.05px;
+    }
+    .footer-widget ul.social li a {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    ul.social {
+        margin-top: 20px;
+    }
+    .footer-area { 
+        padding-top: 50px; 
+    }
+    .hero-wrp {
+        padding: 0 0px; 
+    } 
+    .hero-area { 
+        padding: 90px 0;
+    }
+    .hero-wrp a { 
+        border-radius: 10px;
+        font-size: 16px;
+        line-height: 24px; 
+        margin-top: 30px; 
+    }
+    .drk-blk.last ul {
+        text-align: center;
+    }
+    .ethereum-wrp ul { 
+        flex-wrap: wrap;
+    }
+    .ethereum-wrp li { 
+        margin-bottom: 10px;
+    }
+    .menu a { 
+        padding: 4px 9px 4px; 
+        margin-left: 2px;
+        font-size: 11px; 
+        border-radius: 4px; 
+    }
+    .drk-blk { 
+        text-align: center;
+    }
+    .hero-wrp p {
+        font-size: 15px;
+        line-height: 20px; 
+    }
+    .parastate-iteam h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .trying-wrp.leftwrps li.middle {
+        margin-top: 40px;
+        margin-bottom: 0;
+    } 
+    .trying-wrp.allWrps li.middle {
+        margin-top: 35px;
+        margin-bottom: 30px;
+        padding: 30px 0; 
+    }
+    li.d-block.midbottom {
+        margin-bottom: 40px;
+    }
+    .ethereum-wrp h3 { 
+        font-size: 26px;
+        line-height: 36px; 
+        margin-bottom: 30px;
+    }
+    .ethereum-area { 
+        padding: 40px 0; 
+    } 
+    .newslatter-wrp ul li a {
+        width: 50px;
+        height: 50px;  
+        font-size: 22px; 
+    }
+    .newslatter-wrp ul li { 
+        margin: 0 5px;
+    }
+    .newslatter-wrp h1 {
+        margin-bottom: 25px;
+    }
+    .newslatter-wrp ul { 
+        margin-bottom: 20px;
+    }
+    .newslatter-wrp p { 
+        font-size: 16px; 
+        margin-bottom: 20px;
+    }
+    .newslatter-wrp form input {
+        width: 60%;
+        height: 45px; 
+        padding: 10px;
+    }
+    .newslatter-wrp form button {
+        width: 40%; 
+        border-radius: 3px;
+        font-size: 16px; 
+    }
+    .newslatter-area { 
+        padding: 60px 0; 
+    }
+    .parastate-iteam img {
+        width: 60px !important; 
+        margin-bottom: 10px;
+    }
+    .parastate-iteam { 
+        box-shadow: 15px 30px 40px rgb(65 137 204 / 8%);
+        border-radius: 20px; 
+        padding: 20px;
+        min-height: 560px;
+        margin-bottom: 65px;
+    }
+
+    iframe{
+        width: 100%;
+    }
+    .trying-wrp li .tr-wrps { 
+        margin-top: 10px;
+    }
+    button.accordion-button p { 
+      width: 90%;
+      line-height: 24px;
+    }
+
+
+
+ 
+} 

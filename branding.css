@@ -1,0 +1,42 @@
+.banner {
+  color: black;
+  position: relative;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+.logo-kit {
+  justify-content: space-around;
+  padding: 20px 0 40px;
+}
+.logo-kit img {
+  height: 200px;
+  box-shadow: 3px 3px 4px 1px #b7b7b7;
+}
+
+.download-kit {
+  text-align: center;
+}
+.download-kit a {
+  text-decoration: none;
+  line-height: 2em;
+  padding: 0 20px;
+  border: 1px solid #666;
+  border-radius: 4px;
+}
+
+.note {
+  color: #666;
+  margin: 2em 0;
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 425px) {
+  .logo-kit img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
