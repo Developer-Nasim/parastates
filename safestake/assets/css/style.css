@@ -568,7 +568,7 @@ i.scheme_mobile {display: none;}
 
 .Architecture_area {
     text-align: center;
-    background: linear-gradient(180deg, #3F3ACA 0%, #3F3ACA 35.66%, #3F3ACA 48.96%, #4DC9F0 99.48%);
+    background: linear-gradient(0deg, #3F3ACA 0%, #3F3ACA 35.66%, #3F3ACA 48.96%, #4DC9F0 99.48%);
 }
 
 .container {}
